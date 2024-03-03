@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 1px;
+}
+.container{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 30% 39% 19%;
+    grid-template-rows: 12% 10% 55% 8% 30% 5%;
+    height: 100vh;
+    grid-gap: 1px;
+
+}
+
+
+/*header1 */
+
+
+.main-header {
+       
+    display: grid;
+    
+    width: 98%;
+    grid-template-columns: 55% 25% 15% 5%;
+    align-items: center;
+    padding: 10px;
+    justify-items: space-between;
+  }
+
+  .mh-logo {
+    margin-left: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  
+  @keyframes colorChange1 {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+}
+
+@keyframes colorChange2 {
+    0% { color: blue; }
+    25% { color: green; }
+    50% { color: orange; }
+    75% { color: purple; }
+    100% { color: red; }
+}
+
+.organic{
+    animation: colorChange1 5s infinite; /* Change '5s' to adjust speed */
+}
+
+.hygienic {
+    animation: colorChange2 5s infinite; /* Change '5s' to adjust speed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #search {
+    padding: 6px;
+    border: 1px solid rgb(239, 232, 232);
+    border-radius: 4px;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  #login {
+    padding: 6px;
+    border: 1px solid rgb(239, 232, 232);
+    border-radius: 4px;
+    background-color: whitesmoke;
+    width: 50%;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .mh-search {
+    display: flex;
+  }
+
+  .mhicon {
+    margin-left: -45px;
+    margin-top: 8px;
+  }
+
+  .mh-login {
+    display: flex;
+    width: 59%;
+    margin-left: 25px;
+  }
+
+  .user {
+    margin-left: -45px;
+    margin-top: 8px;
+  }
+
+  .mh-cart {
+    display: flex;
+    border: 1px solid rgb(239, 232, 232);
+    border-radius: 4px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+    color: light gray;
+  }
+
+/*header1 */
+
+
+/*header2*/
+
+a {
+    text-decoration: none;
+    
+    font-size: 16px;
+    color: rgb(59, 57, 57);
+  }
+  .header2 {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .h2anchor {
+    display: flex;
+    margin-left: 30px;
+    font-size: 10px;
+    padding-right: 80px;
+    
+     }
+
+  /*header2*/
+
+
+  /*sideimage*/
+  .sideimg div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid rgba(15, 126, 7, 0.772);
+    border-radius: px;
+    padding: auto;
+    width: 80px;
+  }
+
+  .triangle {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  /*sideimage*/
+
+  /*mainimage*/
+
+  .image{
+    display: inline-flex;
+    border: 2px solid seagreen;
+    border-radius: 5px;
+  }
+  /*mainimage*/
+
+
+/*description*/
+
+
+
+.stars {
+    color: gold;
+    display: inline-flex;
+  }
+
+  .ml {
+    background-color: rgb(17, 211, 17);
+    padding: 3px;
+    width: 75px;
+    height: 30px;
+    border-radius: 4px;
+    border: 2ps solid white;
+    font-size: 20px;
+    color: white;
+  }
+  .percentage {
+    display: flex;
+
+    align-items: center;
+  }
+
+
+  .desc-header{
+    padding-top:15px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+/*description*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    background-color: white;
+   /* border: 1px solid lightgray;*/
+    grid-column: 1/5;
+}
+
+.h-bar{
+    display: flex;
+    flex: 1;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin-left: 1px;
+    
+}
+.h-items{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    
+    
+}
+
+.menu{
+    position: relative;
+    top: 20px;
+    
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    grid-column: 1/5;
+    margin-left: 35px;
+    margin-right: 24.2px;
+    
+
+}
+
+.side-imgs{
+    position: relative;
+    top: 20px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    margin-left: 35px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+
+.main-img{
+    position: relative;
+    background-color: white;
+    border: 1px solid lightgray;
+    background-image: url(https://media.istockphoto.com/id/842272502/photo/neem-ayurvedic-oil.jpg?s=2048x2048&w=is&k=20&c=mzGEeyJOzPjN1B0bOVwHR4j6o96aUmwBdog2Qri8N1c=);
+    background-size: cover;
+    width: 100%;
+    top: 20px;
+    
+    
+
+    
+
+
+}
+
+.desc{
+    background-color: white;
+    /*border: 1px solid lightgray;*/
+    grid-column: 3/5;
+    margin-right: 25px;
+    padding-left: 30px;
+    padding-right: 200px;
+
+}
+
+
+
+.buttons{
+    position: relative;
+    top: 20px;
+    background-color: white;
+    /*border: 1px solid lightgray;*/
+    grid-column: 1/5;
+    display: inline-flex;
+
+}
+
+
+.button {
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    left: 560px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+  }
+
+.footer1{
+
+    border-top: 1px solid rgb(164, 159, 159);
+    position: relative;
+    color: rgb(88, 87, 87);
+    font-size: 13px;
+    top: 20px;
+    background-color: white;
+    /*border: 1px solid lightgray;*/
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    padding-top: 10px;
+
+}
+
+.icons{
+    display: flex;
+    justify-items: start;
+    padding: 5px;
+
+}
+
+.footer2{
+    position: relative;
+    text-align: center;
+    padding: 8px 8px;
+    top: 20px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    grid-column: 1/5;
+margin-left: 15px;
+}
+
